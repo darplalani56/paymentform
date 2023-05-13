@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Login Form</title>
+    </head>
+    
+    <body>
+        <form class="container">
+       <h1 class="heading"><strong>Payment Form</strong> </h1>  
+       <hr color="black">
+       <h2><strong>User Information</strong></h2><br>
+       <label>Name</label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Darp Lalani" required><br><br>
+       <fieldset>
+        <legend>Gender</legend>
+       Male <input type="radio" name="Gender" required>
+       Female <input type="radio" name="Gender" required>
+       </fieldset><br><br>
+       <p>Address
+        <textarea name="address" cols="100" rows="8" required></textarea></p><br><br>
+       <label>Email</label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="lalani@gmail.com" required><br><br>
+       <label>Pincode</label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" placeholder="123456" required><br><br>
+       <h2>Payment Information</h2><br><br>
+       <p>
+        Card Type
+        <select name="card_type" required>
+            <option value="">Select a Card Type</option>
+            <option value="Visa">Visa</option>
+            <option value="Master Card">Master Card</option>
+            <option value="Rupay">Rupay</option>
+
+        </select>
+
+       </p>
+       <p>
+        Card Number <input type="number" name="number" placeholder="1111-2222-3333-4444" required>
+
+       </p>
+       <p>
+        Card Expiration Date <input type="date" required>
+       </p>
+       <p>
+        CVV <input type="password" required>
+       </p>
+       <input type="submit" value="Pay Now">
+       
+       </form>
+
+    </body>
+
+ 
+</html>
